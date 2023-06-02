@@ -18,7 +18,7 @@ public class LoginActivity extends AppCompatActivity {
         loginBinding=ActivityLoginBinding.inflate(getLayoutInflater());
         setContentView(loginBinding.getRoot());
 
-        loginBinding.loginButton.setOnClickListener(new View.OnClickListener() {
+        loginBinding.btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (loginBinding.username.getText().toString().equals("admin") && loginBinding.password.getText().toString().equals("1234")) {

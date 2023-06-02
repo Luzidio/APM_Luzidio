@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".temp">
+
+    <EditText
+        android:id="@+id/txtDescription"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="54dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Description"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/btnRegister"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTheme"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txtAutor"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="7dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Autor"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/txtTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txtTheme"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Theme"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/txtDescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAutor"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="181dp"
+        android:backgroundTint="@color/purple"
+        android:text="Registrar"
+        android:textSize="18sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

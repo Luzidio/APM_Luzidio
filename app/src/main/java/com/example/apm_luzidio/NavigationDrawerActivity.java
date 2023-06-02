@@ -7,7 +7,6 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -45,7 +44,7 @@ public class NavigationDrawerActivity extends AppCompatActivity implements Navig
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new HomeFragment()).commit();
                 break;
             case R.id.nav_settings:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new SettingsFragment()).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new RegisterFragment()).commit();
                 break;
             case R.id.nav_share:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ShareFragment()).commit();
