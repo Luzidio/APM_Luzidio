@@ -8,6 +8,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.apm_luzidio.databinding.ActivityLoginBinding;
+import com.example.apm_luzidio.databinding.ActivityNavegationDrawerBinding;
+
 public class HomeFragment extends Fragment {
 
 

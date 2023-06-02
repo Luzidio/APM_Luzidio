@@ -12,13 +12,19 @@
         android:theme="@style/Theme.APM_Luzidio"
         tools:targetApi="31">
         <activity
-            android:name=".NavigationDrawerActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:name=".RecycleDetailsActivity"
             android:exported="false" />
         <activity
+            android:name=".RecyclerViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationDrawerActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
             android:name=".LoginActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
