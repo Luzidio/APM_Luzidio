@@ -35,7 +35,7 @@ public class RegisterFragment extends Fragment {
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                saveStudent();
+                saveTheme();
 
                 ArrayList<Tema> temas = databaseHelper.getAllThemes();
 
@@ -46,7 +46,7 @@ public class RegisterFragment extends Fragment {
         return view;
     }
 
-    public void saveStudent() {
+    public void saveTheme() {
         String description = binding.txtDescription.getText().toString();
         String autor = binding.txtAutor.getText().toString();
         String theme = binding.txtTheme.getText().toString();
