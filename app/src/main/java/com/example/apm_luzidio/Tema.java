@@ -5,7 +5,21 @@ import java.io.Serializable;
 public class Tema implements Serializable {
 
     private String author;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    private String id;
     private String theme;
+
+    public Tema() {
+    }
+
     private String description;
 
     public Tema(String author, String theme, String description) {

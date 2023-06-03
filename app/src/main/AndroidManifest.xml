@@ -12,6 +12,9 @@
         android:theme="@style/Theme.APM_Luzidio"
         tools:targetApi="31">
         <activity
+            android:name=".ThemeDetailsActivity"
+            android:exported="false" />
+        <activity
             android:name=".temp"
             android:exported="false" />
         <activity
